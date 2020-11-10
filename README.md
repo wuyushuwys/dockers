@@ -9,5 +9,5 @@
 
 ### jetson-env (developing)
   - to do list
-    - []simple functionalities fork from ubuntu18-env
-    - []tested in jetson device
+    - [ ] simple functionalities fork from ubuntu18-env
+    - [ ] tested in jetson device
