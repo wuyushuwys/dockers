@@ -4,7 +4,9 @@
   - contains serveral bash files to create/close/attach/stop containers
     - functionalities are straight-forward
     - for more information about docker, see [official documents](https://docs.docker.com/)
-  - **setup_nvidia.sh:** setup gpu access for workstation. the command require root premissions on /dev/! Be careful when managing /dev/ in container
+  - **setup_nvidia.sh:** setup gpu access for workstation. 
+  
+  ***these commands require root premissions on /dev/\*! Be careful when managing /dev/\* in container***
 
 ### jetson-env (developing)
   - to do list
