@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+    ubuntu:
+        image: ubuntu18-env:latest
+        stdin_open: true # docker run -i
+        tty: true        # docker run -t
+        environment:
+            - NVIDIA_VISIBLE_DEVICES=all
+            - DISPLAY=unix$DISPLAY
+            - QT_X11_NO_MITSHM=1
+        devices:
+            - /dev/nvidia0
+            - /dev/video0
+            - /dev/video1
+        volumes:
+            - /tmp/.X11-unix:/tmp/.X11-unix #Static - needed to display atom on your host
+            
