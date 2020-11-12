@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t ubuntu18-env .
+docker build -t wuyushu/ubuntu18-env .
